@@ -36,7 +36,7 @@ if ($this->getBo() && $this->getUser() && $this->getUser()->hasRight(GROUP_TURBO
         'id' => 'turbo',
         'position' => MENU_SITE,
         'name' => $translator->_('Турбо-страницы'),
-        'icon' => '/plugins/turbo/images/icon.png',
+        'icon' => '/cms/plugins/turbo/images/icon.png',
         'class' => 'Plugin.turbo.RSSListPanel'
     ));
 }
