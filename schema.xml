@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema>
+    <table name="turbo_lists" engine="MyISAM">
+        <field name="id" type="int(11)" null="0" auto_increment="1"/>
+        <field name="name" type="varchar(64)" null="0"/>
+        <field name="fileName" type="varchar(128)" null="0"/>
+        <field name="dirs" type="text" null="1"/>
+        <field name="type" type="int(1)" null="1"/>
+        <key name="PRIMARY" unique="1">
+            <column name="id"/>
+        </key>
+    </table>
+</schema>

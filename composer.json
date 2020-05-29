@@ -1,0 +1,33 @@
+{
+    "name": "cetera-labs/plugin-turbo",
+    "description": "Возможность создавать турбо-страницы в Яндексе, Гугле и Телеграме.",
+    "type": "cetera-cms-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Антон Есин",
+            "role": "Author"
+        }
+        {
+            "name": "Roman Romanov",
+            "email": "nicodim@mail.ru",
+            "role": "Support"
+        }
+    ],
+    "require": {
+    },
+    
+    "minimum-stability": "dev",
+    
+    "autoload": {
+        "psr-0": { 
+			"Turbo\\": "classes/"
+		}
+    },
+
+    "extra": {
+        "name": "turbo",
+        "title": "Турбо-страницы",
+        "description": "Возможность создавать турбо-страницы в Яндексе, Гугле и Телеграме."
+    }
+}

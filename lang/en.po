@@ -1,0 +1,262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Модуль \"Sitemap XML\"\n"
+"POT-Creation-Date: 2017-05-13 22:18+0300\n"
+"PO-Revision-Date: 2017-05-13 22:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;translate\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ext/Widget.js:28
+msgid "Выберите Turbo"
+msgstr "Choose Turbo"
+
+#: ext/Widget.js:38 ext/ui_rss_list_properties.php:73
+msgid "Тип Turbo"
+msgstr "Turbo type"
+
+#: ext/Widget.js:53 ext/ui_rss_list_properties.php:88
+msgid "Лимит"
+msgstr "Limit"
+
+#: ext/Widget.js:59 ext/ui_rss_list_properties.php:94
+msgid "Использовать Яндекс-формат"
+msgstr "Use Yandex format"
+
+#: ext/Widget.js:64
+msgid "Шаблон ссылки"
+msgstr "Link template"
+
+#: ext/Widget.js:72
+msgid "Ссылка"
+msgstr "File reference"
+
+#: ext/Widget.js:72
+msgid "Текст ссылки"
+msgstr "Link text"
+
+#: action_rss_lists.php:58
+msgid "Turbo с таким названием уже существует"
+msgstr "Turbo with the same name already exists"
+
+#: action_rss_lists.php:69
+msgid "Turbo с таким Alias'ом уже существует"
+msgstr "Turbo with the same Alias already exists om"
+
+#: classes/RSS/RSSFeed.php:34
+msgid "Turbo с ID="
+msgstr "Turbo with ID="
+
+#: classes/RSS/RSSFeed.php:34
+msgid " не найден"
+msgstr " not found"
+
+#: config.php:17
+msgid "Пользователи Turbo ленты"
+msgstr "Users of Turbo feeds"
+
+#: config.php:18
+msgid "Имеют доступ к управлению Turbo лентой"
+msgstr "Have access to the management of Turbo feeds"
+
+#: config.php:25
+msgid "Turbo лента"
+msgstr "Turbo feeds"
+
+#: ext/ui_rss_list_properties.php:41
+msgid "Разделы"
+msgstr "Partitions"
+
+#: ext/ui_rss_list_properties.php:54
+msgid "Основные"
+msgstr "Main"
+
+#: ext/ui_rss_list_properties.php:60 ext/ui_rss_lists.php:11
+msgid "Название"
+msgstr "Name"
+
+#: ext/ui_rss_list_properties.php:64 ext/ui_rss_lists.php:12
+msgid "Alias"
+msgstr "Alias"
+
+#: ext/ui_rss_list_properties.php:68
+msgid "Alias может содержать только латинские буквы, цифры и символы -_"
+msgstr "Alias can only contain letters, numbers and symbols -_"
+
+#: ext/ui_rss_list_properties.php:117
+msgid "Ok"
+msgstr "Ok"
+
+#: ext/ui_rss_list_properties.php:121
+msgid "Отмена"
+msgstr "Cancel"
+
+#: ext/ui_rss_list_properties.php:148
+msgid "Свойства"
+msgstr "Properties"
+
+#: ext/ui_rss_list_properties.php:153
+msgid "Новый Turbo"
+msgstr "New Turbo"
+
+#: ext/ui_rss_list_properties.php:171
+msgid "Сохранение..."
+msgstr "Saving..."
+
+#: ext/ui_rss_lists.php:13
+msgid "Ссылка на XML"
+msgstr "Link to XML"
+
+#: ext/ui_rss_lists.php:62
+msgid "Добавить Turbo"
+msgstr "Add Turbo"
+
+#: ext/ui_rss_lists.php:73
+msgid "Изменить Turbo"
+msgstr "Edit Turbo"
+
+#: ext/ui_rss_lists.php:84 ext/ui_rss_lists.php:142
+msgid "Удалить Turbo"
+msgstr "Delete Turbo"
+
+#: ext/ui_rss_lists.php:142
+msgid "Вы уверены"
+msgstr "Are you sure"
+
+#~ msgid "Раздел"
+#~ msgstr "Section"
+
+#~ msgid "Элементы"
+#~ msgstr "Elements"
+
+#~ msgid "Сайт"
+#~ msgstr "Website"
+
+#~ msgid "Настройки"
+#~ msgstr "Settings"
+
+#~ msgid "Справка"
+#~ msgstr "Help"
+
+#~ msgid "Путь к файлу"
+#~ msgstr "The path to the file"
+
+#~ msgid "Добавить правило в robots.txt после генерации"
+#~ msgstr "Add a rule in the robots.txt after generation"
+
+#~ msgid "Оповестить Google об изменении сайта"
+#~ msgstr "Notify Google about the change of website"
+
+#~ msgid "Регистрация не требуется, но вы можете войти в"
+#~ msgstr "Registration is not required but you can log in"
+
+#~ msgid "и проверить статистику по сайту."
+#~ msgstr "and check the stats on the website."
+
+#~ msgid "Оповестить Yandex об изменении сайта"
+#~ msgstr "Notify Yandex about the change of website"
+
+#~ msgid "Оповестить Bing об изменении сайта"
+#~ msgstr "Notify Bing about the change of website"
+
+#~ msgid "Нет"
+#~ msgstr "No"
+
+#~ msgid "Да"
+#~ msgstr "Yes"
+
+#~ msgid "Загрузка данных..."
+#~ msgstr "Downloading..."
+
+#~ msgid "Новый Sitemapxml"
+#~ msgstr "New Sitemapxml"
+
+#~ msgid "Ошибка сохранения"
+#~ msgstr "Error saving"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Изменено"
+#~ msgstr "Changed"
+
+#~ msgid "Последний запуск"
+#~ msgstr "Last run"
+
+#~ msgid "Добавить настройку"
+#~ msgstr "Add setting"
+
+#~ msgid "Изменить настройку"
+#~ msgstr "To change the setting"
+
+#~ msgid "Удалить настройку"
+#~ msgstr "To remove the setting"
+
+#~ msgid "Удалить Sitemapxml"
+#~ msgstr "Remove Sitemapxml"
+
+#~ msgid "Удаление временных данных..."
+#~ msgstr "Delete temporary data..."
+
+#~ msgid "Ошибка"
+#~ msgstr "Error"
+
+#~ msgid "Успешное выполнение"
+#~ msgstr "Successfully complete"
+
+#~ msgid "Sitemapxml с таким названием уже существует"
+#~ msgstr "Sitemapxml with the same name already exists"
+
+#~ msgid "Не выбран сайт"
+#~ msgstr "Not selected website"
+
+#~ msgid "Не указан путь к файлу"
+#~ msgstr "Do not specify the path to the file"
+
+#~ msgid "Создание списка разделов..."
+#~ msgstr "Creating list of partitions..."
+
+#~ msgid "Индексирование разделов..."
+#~ msgstr "The index of the sections..."
+
+#~ msgid "Ошибка получения данных."
+#~ msgstr "Data acquisition error."
+
+#~ msgid "Индексирование элементов..."
+#~ msgstr "The index of the elements..."
+
+#~ msgid "Сохранение данных в файл"
+#~ msgstr "Saving data to a file"
+
+#~ msgid "Добавление информации в robots.txt"
+#~ msgstr "Adding information to robots.txt"
+
+#~ msgid "Оповещение поисковых систем"
+#~ msgstr "Alert search engines"
+
+#~ msgid "Оповещение поисковых систем: Яндекс"
+#~ msgstr "Alert search engines: Yandex"
+
+#~ msgid "Оповещение поисковых систем: Google"
+#~ msgstr "Alert search engines: Google"
+
+#~ msgid "Оповещение поисковых систем: Bing"
+#~ msgstr "Alert search engines: Bing"
+
+#~ msgid "Создание карты сайта успешно выполнено"
+#~ msgstr "Creating a sitemap completed successfully"
+
+#~ msgid "Еще не запускался"
+#~ msgstr "Have not yet run"
+
+#~ msgid "Запустить"
+#~ msgstr "Start"
