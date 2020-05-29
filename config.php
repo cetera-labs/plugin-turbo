@@ -2,8 +2,7 @@
 $t = $this->getTranslator();
 $t->addTranslation(__DIR__.'/lang');
 
-
-define('GROUP_RSS', -103);
+define('GROUP_TURBO', -113);
 
 define('RSS_LIST_FORMED', 1);
 define('RSS_LIST_SCHEDULED', 2);
@@ -27,12 +26,12 @@ define('RSS_ERROR', 3);
 define("RSS_DINAMIC_PATH", "plugins/turbo/data/rss.php");
 
 $this->addUserGroup(array(
-    'id' => GROUP_MAIL,
+    'id' => GROUP_TURBO,
     'name' => $translator->_('Пользователи Turbo ленты'),
     'describ' => $translator->_('Имеют доступ к управлению Turbo лентой'),
 ));
 
-if ($this->getBo() && $this->getUser() && $this->getUser()->hasRight(GROUP_RSS)) {
+if ($this->getBo() && $this->getUser() && $this->getUser()->hasRight(GROUP_TURBO)) {
     $this->getBo()->addModule(array(
         'id' => 'turbo',
         'position' => MENU_SITE,
