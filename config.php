@@ -37,6 +37,7 @@ if ($this->getBo() && $this->getUser() && $this->getUser()->hasRight(GROUP_TURBO
         'position' => MENU_SITE,
         'name' => $translator->_('Турбо-страницы'),
         'icon' => '/cms/plugins/turbo/images/icon.png',
+        'iconCls' => 'x-fa fa-tachometer-alt',
         'class' => 'Plugin.turbo.RSSListPanel'
     ));
 }
