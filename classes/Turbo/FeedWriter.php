@@ -123,7 +123,7 @@ class FeedWriter
     {
         //Start channel tag
         if ($this->version == self::Turbo) {
-            echo '<channel>' . PHP_EOL;
+            echo '<channel>' . PHP_EOL . '<turbo:cms_plugin>2398A0EA1BA32FD47C52DD4B85BEA215</turbo:cms_plugin>'. PHP_EOL;
         }
     }
 
