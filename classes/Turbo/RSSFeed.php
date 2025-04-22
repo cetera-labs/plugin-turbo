@@ -149,8 +149,12 @@ class RSSFeed extends \Cetera\Base
         return $materials;
     }
 
-    public static function doImport(array $materials = Array(), $server, $type = 4, $yandex = 0)
+    public static function doImport(array $materials = Array(), $server = null, $type = 4, $yandex = 0)
     {
+        if ($server === null) {
+            throw new \InvalidArgumentException('Parameter $server is required.');
+        }
+
         reset($materials);
 
         switch (intval($type)) {
